@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../Common/header';
 import Footer from '../Common/footer';
+import { Link } from 'react-router-dom';
 
 export default function CarSingle() {
   return (
@@ -12,7 +13,7 @@ export default function CarSingle() {
           <div className="row no-gutters slider-text js-fullheight align-items-end justify-content-start">
             <div className="col-md-9 ftco-animate pb-5">
               <p className="breadcrumbs">
-                <span className="mr-2"><a href="index.html">Home <i className="ion-ios-arrow-forward"></i></a></span> <span>Car details <i className="ion-ios-arrow-forward"></i></span>
+                <span className="mr-2"><Link To="/">Home <i className="ion-ios-arrow-forward"></i></Link></span> <span>Car details <i className="ion-ios-arrow-forward"></i></span>
               </p>
               <h1 className="mb-3 bread">Car Details</h1>
             </div>
@@ -116,13 +117,13 @@ export default function CarSingle() {
                 <div className="d-flex justify-content-center">
                   <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
                     <li className="nav-item">
-                      <a className="nav-link active" id="pills-description-tab" data-toggle="pill" href="#pills-description" role="tab" aria-controls="pills-description" aria-expanded="true">Features</a>
+                      <Link className="nav-link active" id="pills-description-tab" data-toggle="pill" To="#pills-description" role="tab" aria-controls="pills-description" aria-expanded="true">Features</Link>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" id="pills-manufacturer-tab" data-toggle="pill" href="#pills-manufacturer" role="tab" aria-controls="pills-manufacturer" aria-expanded="true">Description</a>
+                      <Link className="nav-link" id="pills-manufacturer-tab" data-toggle="pill" To="#pills-manufacturer" role="tab" aria-controls="pills-manufacturer" aria-expanded="true">Description</Link>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" id="pills-review-tab" data-toggle="pill" href="#pills-review" role="tab" aria-controls="pills-review" aria-expanded="true">Review</a>
+                      <Link className="nav-link" id="pills-review-tab" data-toggle="pill" To="#pills-review" role="tab" aria-controls="pills-review" aria-expanded="true">Review</Link>
                     </li>
                   </ul>
                 </div>
@@ -184,7 +185,7 @@ export default function CarSingle() {
                                 <i className="ion-ios-star"></i>
                                 <i className="ion-ios-star"></i>
                               </span>
-                              <span className="text-right"><link href="#" className="reply"><i className="icon-reply"></i></link></span>
+                              <span className="text-right"><link To="#" className="reply"><i className="icon-reply"></i></link></span>
                             </p>
                             <p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrov</p>
                           </div>
@@ -204,7 +205,7 @@ export default function CarSingle() {
                                 <i className="ion-ios-star"></i>
                                 <i className="ion-ios-star"></i>
                               </span>
-                              <span className="text-right"><link href="#" className="reply"><i className="icon-reply"></i></link></span>
+                              <span className="text-right"><link To="#" className="reply"><i className="icon-reply"></i></link></span>
                             </p>
                             <p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrov</p>
                           </div>
@@ -224,7 +225,7 @@ export default function CarSingle() {
                                 <i className="ion-ios-star"></i>
                                 <i className="ion-ios-star"></i>
                               </span>
-                              <span className="text-right"><link href="#" className="reply"><i className="icon-reply"></i></link></span>
+                              <span className="text-right"><link To="#" className="reply"><i className="icon-reply"></i></link></span>
                             </p>
                             <p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrov</p>
                           </div>
