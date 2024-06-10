@@ -12,6 +12,9 @@ import CarSingle from './Car-single';
 import Services from './Services';
 import Pricing from './Pricing';
 import Contact from './Contact';
+import Login from './Login';
+import SignUp from './SignUp';
+import Footer from '../Common/footer';
 
 
 function Routers() {
@@ -19,16 +22,19 @@ function Routers() {
     <Router>
       <Header/>
       <Routes>
-        <Route path="/" exact component={<Home/>} />
-        <Route path="/about" component={<About/>} />
-        <Route path="/blog" component={<Blog/>} />
-        <Route exactpath="/blog/blog-single" component={<Blogsingle/>} />
-        <Route path="/car" component={<Car/>} />
-        <Route exactpath="/car/car-single" component={<CarSingle/>} />
-        <Route path="/services" component={<Services/>} />
-        <Route path="/pricing" component={<Pricing/>} />
-        <Route path="/contact" component={<Contact/>} />
+        <Route path="/" exact element={<Home/>} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/blog" element={<Blog/>} />
+        <Route exactpath="/blog/blog-single" element={<Blogsingle/>} />
+        <Route path="/car" element={<Car/>} />
+        <Route exactpath="/car/car-single" element={<CarSingle/>} />
+        <Route path="/services" element={<Services/>} />
+        <Route path="/pricing" element={<Pricing/>} />
+        <Route path="/contact" element={<Contact/>} />
+        <Route path="/Login" element={<Login/>} />
+        <Route path="/signUp" element={<SignUp/>} />
       </Routes>
+      <Footer/>
     </Router>
   );
 }
