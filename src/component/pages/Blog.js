@@ -1,133 +1,134 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 export default function Blog() {
   return (
    <>
 
-    <section class="hero-wrap hero-wrap-2 js-fullheight" style={{backgroundImage: `url('../../images/bg_3.jpg')`}} data-stellar-background-ratio="0.5">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start">
-          <div class="col-md-9 ftco-animate pb-5">
-          	<p class="breadcrumbs"><span class="mr-2"><link href="index.html">Home <i class="ion-ios-arrow-forward"></i></link></span> <span>Blog <i class="ion-ios-arrow-forward"></i></span></p>
-            <h1 class="mb-3 bread">Our Blog</h1>
+    <section className="hero-wrap hero-wrap-2 js-fullheight" style={{backgroundImage: `url('../../images/bg_3.jpg')`}} data-stellar-background-ratio="0.5">
+      <div className="overlay"></div>
+      <div className="container">
+        <div className="row no-gutters slider-text js-fullheight align-items-end justify-content-start">
+          <div className="col-md-9 ftco-animate pb-5">
+          	<p className="breadcrumbs"><span className="mr-2"><Link To="/">Home <i className="ion-ios-arrow-forward"></i></Link></span> <span>Blog <i className="ion-ios-arrow-forward"></i></span></p>
+            <h1 className="mb-3 bread">Our Blog</h1>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="ftco-section">
-      <div class="container">
-        <div class="row d-flex justify-content-center">
-          <div class="col-md-12 text-center d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end mb-md-5">
-              <link href="blog-single.html" class="block-20 img" style={{backgroundImage: `url('../../images/image_1.jpg')`}}>
-              </link>
-              <div class="text px-md-5 pt-4">
-              	<div class="meta mb-3">
-                  <div><link href="#">Oct. 29, 2019</link></div>
-                  <div><link href="#">Admin</link></div>
-                  <div><link href="#" class="meta-chat"><span class="icon-chat"></span> 3</link></div>
+    <section className="ftco-section">
+      <div className="container">
+        <div className="row d-flex justify-content-center">
+          <div className="col-md-12 text-center d-flex ftco-animate">
+          	<div className="blog-entry justify-content-end mb-md-5">
+              <Link To="/blog/blog-single" className="block-20 img" style={{backgroundImage: `url('../../images/image_1.jpg')`}}>
+              </Link>
+              <div className="text px-md-5 pt-4">
+              	<div className="meta mb-3">
+                  <div><Link To="#">Oct. 29, 2019</Link></div>
+                  <div><Link To="#">Admin</Link></div>
+                  <div><Link To="#" className="meta-chat"><span className="icon-chat"></span> 3</Link></div>
                 </div>
-                <h3 class="heading mt-2"><link href="#">Why Lead Generation is Key for Business Growth</link></h3>
+                <h3 className="heading mt-2"><Link To="#">Why Lead Generation is Key for Business Growth</Link></h3>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                <p><link href="blog-single.html" class="btn btn-primary">Continue <span class="icon-long-arrow-right"></span></link></p>
+                <p><Link To="/blog/blog-single" className="btn btn-primary">Continue <span className="icon-long-arrow-right"></span></Link></p>
               </div>
             </div>
           </div>
-          <div class="col-md-12 text-center d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end mb-md-5">
-              <link href="blog-single.html" class="block-20 img" style={{backgroundImage: `url('../../images/image_2.jpg')`}}>
-              </link>
-              <div class="text px-md-5 pt-4">
-              	<div class="meta mb-3">
-                  <div><link href="#">Oct. 29, 2019</link></div>
-                  <div><link href="#">Admin</link></div>
-                  <div><link href="#" class="meta-chat"><span class="icon-chat"></span> 3</link></div>
+          <div className="col-md-12 text-center d-flex ftco-animate">
+          	<div className="blog-entry justify-content-end mb-md-5">
+              <Link To="/blog/blog-single" className="block-20 img" style={{backgroundImage: `url('../../images/image_2.jpg')`}}>
+              </Link>
+              <div className="text px-md-5 pt-4">
+              	<div className="meta mb-3">
+                  <div><Link To="#">Oct. 29, 2019</Link></div>
+                  <div><Link To="#">Admin</Link></div>
+                  <div><Link To="#" className="meta-chat"><span className="icon-chat"></span> 3</Link></div>
                 </div>
-                <h3 class="heading mt-2"><link href="#">Why Lead Generation is Key for Business Growth</link></h3>
+                <h3 className="heading mt-2"><Link To="#">Why Lead Generation is Key for Business Growth</Link></h3>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                <p><link href="blog-single.html" class="btn btn-primary">Continue <span class="icon-long-arrow-right"></span></link></p>
+                <p><Link To="/blog/blog-single" className="btn btn-primary">Continue <span className="icon-long-arrow-right"></span></Link></p>
               </div>
             </div>
           </div>
-          <div class="col-md-12 text-center d-flex ftco-animate">
-          	<div class="blog-entry">
-              <link href="blog-single.html" class="block-20 img" style={{backgroundImage: `url('../../images/bg_3.jpg')`}}>
-              </link>
-              <div class="text px-md-5 pt-4">
-              	<div class="meta mb-3">
-                  <div><link href="#">Oct. 29, 2019</link></div>
-                  <div><link href="#">Admin</link></div>
-                  <div><link href="#" class="meta-chat"><span class="icon-chat"></span> 3</link></div>
+          <div className="col-md-12 text-center d-flex ftco-animate">
+          	<div className="blog-entry">
+              <Link To="/blog/blog-single" className="block-20 img" style={{backgroundImage: `url('../../images/bg_3.jpg')`}}>
+              </Link>
+              <div className="text px-md-5 pt-4">
+              	<div className="meta mb-3">
+                  <div><Link To="#">Oct. 29, 2019</Link></div>
+                  <div><Link To="#">Admin</Link></div>
+                  <div><Link To="#" className="meta-chat"><span className="icon-chat"></span> 3</Link></div>
                 </div>
-                <h3 class="heading mt-2"><link href="#">Why Lead Generation is Key for Business Growth</link></h3>
+                <h3 className="heading mt-2"><Link To="#">Why Lead Generation is Key for Business Growth</Link></h3>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                <p><link href="blog-single.html" class="btn btn-primary">Continue <span class="icon-long-arrow-right"></span></link></p>
+                <p><Link To="/blog/blog-single" className="btn btn-primary">Continue <span className="icon-long-arrow-right"></span></Link></p>
               </div>
             </div>
           </div>
-          <div class="col-md-12 text-center d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end mb-md-5">
-              <link href="blog-single.html" class="block-20 img" style={{backgroundImage: `url('../../images/image_4.jpg')`}}>
-              </link>
-              <div class="text px-md-5 pt-4">
-              	<div class="meta mb-3">
-                  <div><link href="#">Oct. 29, 2019</link></div>
-                  <div><link href="#">Admin</link></div>
-                  <div><link href="#" class="meta-chat"><span class="icon-chat"></span> 3</link></div>
+          <div className="col-md-12 text-center d-flex ftco-animate">
+          	<div className="blog-entry justify-content-end mb-md-5">
+              <Link To="/blog/blog-single" className="block-20 img" style={{backgroundImage: `url('../../images/image_4.jpg')`}}>
+              </Link>
+              <div className="text px-md-5 pt-4">
+              	<div className="meta mb-3">
+                  <div><Link To="#">Oct. 29, 2019</Link></div>
+                  <div><Link To="#">Admin</Link></div>
+                  <div><Link To="#" className="meta-chat"><span className="icon-chat"></span> 3</Link></div>
                 </div>
-                <h3 class="heading mt-2"><link href="#">Why Lead Generation is Key for Business Growth</link></h3>
+                <h3 className="heading mt-2"><Link To="#">Why Lead Generation is Key for Business Growth</Link></h3>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                <p><link href="blog-single.html" class="btn btn-primary">Continue <span class="icon-long-arrow-right"></span></link></p>
+                <p><Link To="/blog/blog-single" className="btn btn-primary">Continue <span className="icon-long-arrow-right"></span></Link></p>
               </div>
             </div>
           </div>
-          <div class="col-md-12 text-center d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end mb-md-5">
-              <link href="blog-single.html" class="block-20 img" style={{backgroundImage: `url('../../images/image_5.jpg')`}}>
-              </link>
-              <div class="text px-md-5 pt-4">
-              	<div class="meta mb-3">
-                  <div><link href="#">Oct. 29, 2019</link></div>
-                  <div><link href="#">Admin</link></div>
-                  <div><link href="#" class="meta-chat"><span class="icon-chat"></span> 3</link></div>
+          <div className="col-md-12 text-center d-flex ftco-animate">
+          	<div className="blog-entry justify-content-end mb-md-5">
+              <Link To="/blog/blog-single" className="block-20 img" style={{backgroundImage: `url('../../images/image_5.jpg')`}}>
+              </Link>
+              <div className="text px-md-5 pt-4">
+              	<div className="meta mb-3">
+                  <div><Link To="#">Oct. 29, 2019</Link></div>
+                  <div><Link To="#">Admin</Link></div>
+                  <div><Link To="#" className="meta-chat"><span className="icon-chat"></span> 3</Link></div>
                 </div>
-                <h3 class="heading mt-2"><link href="#">Why Lead Generation is Key for Business Growth</link></h3>
+                <h3 className="heading mt-2"><Link To="#">Why Lead Generation is Key for Business Growth</Link></h3>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                <p><link href="blog-single.html" class="btn btn-primary">Continue <span class="icon-long-arrow-right"></span></link></p>
+                <p><Link To="/blog/blog-single" className="btn btn-primary">Continue <span className="icon-long-arrow-right"></span></Link></p>
               </div>
             </div>
           </div>
-          <div class="col-md-12 text-center d-flex ftco-animate">
-          	<div class="blog-entry">
-              <link href="blog-single.html" class="block-20 img" style={{backgroundImage: `url('../../images/image_6.jpg')`}}>
-              </link>
-              <div class="text px-md-5 pt-4">
-              	<div class="meta mb-3">
-                  <div><link href="#">Oct. 29, 2019</link></div>
-                  <div><link href="#">Admin</link></div>
-                  <div><link href="#" class="meta-chat"><span class="icon-chat"></span> 3</link></div>
+          <div className="col-md-12 text-center d-flex ftco-animate">
+          	<div className="blog-entry">
+              <Link To="/blog/blog-single" className="block-20 img" style={{backgroundImage: `url('../../images/image_6.jpg')`}}>
+              </Link>
+              <div className="text px-md-5 pt-4">
+              	<div className="meta mb-3">
+                  <div><Link To="#">Oct. 29, 2019</Link></div>
+                  <div><Link To="#">Admin</Link></div>
+                  <div><Link To="#" className="meta-chat"><span className="icon-chat"></span> 3</Link></div>
                 </div>
-                <h3 class="heading mt-2"><link href="#">Why Lead Generation is Key for Business Growth</link></h3>
+                <h3 className="heading mt-2"><Link To="#">Why Lead Generation is Key for Business Growth</Link></h3>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                <p><link href="blog-single.html" class="btn btn-primary">Continue <span class="icon-long-arrow-right"></span></link></p>
+                <p><Link To="/blog/blog-single" className="btn btn-primary">Continue <span className="icon-long-arrow-right"></span></Link></p>
               </div>
             </div>
           </div>
         </div>
-        <div class="row mt-5">
-          <div class="col text-center">
-            <div class="block-27">
+        <div className="row mt-5">
+          <div className="col text-center">
+            <div className="block-27">
               <ul>
-                <li><link href="#">&lt;</link></li>
-                <li class="active"><span>1</span></li>
-                <li><link href="#">2</link></li>
-                <li><link href="#">3</link></li>
-                <li><link href="#">4</link></li>
-                <li><link href="#">5</link></li>
-                <li><link href="#">&gt;</link></li>
+                <li><Link To="#">&lt;</Link></li>
+                <li className="active"><span>1</span></li>
+                <li><Link To="#">2</Link></li>
+                <li><Link To="#">3</Link></li>
+                <li><Link To="#">4</Link></li>
+                <li><Link To="#">5</Link></li>
+                <li><Link To="#">&gt;</Link></li>
               </ul>
             </div>
           </div>
